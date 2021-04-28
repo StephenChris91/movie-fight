@@ -12,7 +12,7 @@ const autoCompleteConfig = {
     },
 
     async fetchData(searchMovie){
-        const movieURL = 'http://www.omdbapi.com/'
+        const movieURL = 'https://www.omdbapi.com/'
         
         const response = await axios.get(movieURL, {
             params: {
